@@ -1,0 +1,32 @@
+{
+  "name": "maison-kiki",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "start": "webpack serve --mode development",
+    "build": "webpack --mode production",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4.0.0",
+    "@types/node": "^22.0.0",
+    "@types/react": "^19.0.0",
+    "@types/react-dom": "^19.0.0",
+    "copy-webpack-plugin": "^13.0.1",
+    "css-loader": "^7.1.0",
+    "html-webpack-plugin": "^5.6.0",
+    "postcss": "^8.4.0",
+    "postcss-loader": "^8.1.0",
+    "style-loader": "^4.0.0",
+    "tailwindcss": "^4.0.0",
+    "ts-loader": "^9.5.0",
+    "typescript": "~5.8.3",
+    "webpack": "^5.0.0",
+    "webpack-cli": "^6.0.0",
+    "webpack-dev-server": "^5.0.0"
+  }
+}

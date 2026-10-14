@@ -1,0 +1,27 @@
+
+@import "tailwindcss";
+
+@theme {
+  --color-cream: #f8f4ee;
+  --color-ink: #251e1d;
+  --color-wine: #65323e;
+  --color-gold: #a88751;
+
+  --font-sans: "DM Sans", sans-serif;
+  --font-display: "Playfair Display", Georgia, serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  background: #f8f4ee;
+  color: #251e1d;
+  font-family: "DM Sans", sans-serif;
+}
+
+button {
+  cursor: pointer;
+}
